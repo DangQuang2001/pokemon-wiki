@@ -1,0 +1,141 @@
+.main{
+    display: flex;
+    width: 75%;
+    height: 100vh;
+    margin: auto;
+
+    .main__left{
+        width: 70%;
+        height: 100%;
+        margin-top: 30px;
+        .searchpokemon{
+            width: 100%;
+            height: 60px;
+           
+            .search{
+                width: 100%;
+                height: 100%;
+                background-color: #FFFF;
+                border-radius: 15px;
+                display: flex;
+                justify-content: space-between;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                .search__input{
+                    width: 80%;
+                    padding-left: 15px;
+                    border-radius: 15px;
+                    border: none;
+                    outline: 0;
+                    font-weight: 500;
+                    font-size: 1.2em;
+                    font-family: 'Teko';
+                    opacity: 0.5;
+                }
+                .search__image{
+                    margin: auto 0;
+                    margin-right: 20px;
+                    width: 40px;
+                    height: 40px;
+                    padding: 10px;
+                    background-color:  #ee6964;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                    opacity: 0.9;
+                }
+                .search__image:hover{
+                    opacity: 1;
+                }
+            }
+        }
+        .total{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            .total__ascending{
+                margin:auto 0;
+                .choose{
+                    font-weight: 400;
+                    font-size: 1.2em;
+                    font-family: 'Teko';
+                    border: none;
+                    outline:0;
+                    background-color: transparent;
+                    
+                }
+            }
+            .pokemon__number{
+                font-weight: 500;
+                font-size: 1.1em;
+                font-family: 'Teko';
+                .number{
+                    width: 60px;
+                    height: 40px;
+                    border-radius: 15px;
+                    border: 1.1px solid #808080;
+                    outline: 0;
+                    margin: 0 5px;
+                    text-align: center;
+                    font-size: 1.1em;
+                    font-family: 'Teko';
+                    
+                }
+            }
+        }
+        .category{
+            width: 100%;
+            height: 60px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .category__same{
+                height: 30px;
+                width: auto;
+                background-color: white;
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                opacity: 0.7;
+                .choose{
+                    border: none;
+                    outline: 0;
+                    background-color: transparent;
+                    padding-right: 15px;
+                    padding-left: 10px;
+                   
+                    font-weight: 500;
+                    font-size: 1.1em;
+                    font-family: 'Teko';
+                }
+                .fa-solid{
+                    margin-left: 15px;
+                }
+            }
+            .category__reload{
+                opacity: 0.7;
+                padding: 10px;
+                width: 30px;
+                height: 30px;
+                background-color: #808080;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: beige;
+            }
+        }
+        
+    }
+    .main__right{
+        margin-top: 30px;
+        background-color: #ee6964;
+        height: auto;
+        position: fixed;
+        width: 21%;
+        left: 66%;
+    }
+}

@@ -1,0 +1,40 @@
+.infopoke{
+    width: 100%;
+    height: 100px;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 25px;
+    .info__image{
+        display: flex;
+        position: relative;
+        .image{
+            transform:translateY(-50%);
+            width: 200px;
+            margin: 0 auto;
+
+        }
+        .sex{
+            position: absolute;
+            right: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            .fa-solid{
+                padding: 2px 4px;
+                border: 1px solid #ee6964;
+                color:#ee6964;
+                border-radius: 7px;
+                margin: auto;
+                margin-top: 5px;
+                font-size: 0.9em;
+            }
+            .active{
+                background-color:#85ddff ;
+                border: none;
+                color:#234c71;
+            }
+        }
+
+        
+    }
+}
